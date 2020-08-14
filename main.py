@@ -19,3 +19,7 @@ while True:
     price4 = (" ".join(price4))
     price4 = price4.replace(' . ', '.')
     print(price4)
+    engine = pyttsx3.init()
+    engine.setProperty('rate', 200)
+    engine.say(code2[1]+' - '+price2+' . '+code3[1]+' - '+price3+' . '+code4[1]+' - '+price4)
+    engine.runAndWait()
