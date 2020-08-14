@@ -23,3 +23,4 @@ while True:
     engine.setProperty('rate', 200)
     engine.say(code2[1]+' - '+price2+' . '+code3[1]+' - '+price3+' . '+code4[1]+' - '+price4)
     engine.runAndWait()
+# this is very inefficient if we want to do multiple stocks so we will try to improve this
